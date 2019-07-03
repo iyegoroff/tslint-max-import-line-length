@@ -1,0 +1,15 @@
+import * as React from 'react'
+import { Model, Msg } from 'state'
+import Model from 'state-state-state-state-state-state-state-state-state-state-state-state-state-state'
+import {
+  View,
+  Text,
+  StyleSheet,
+  ViewStyle,
+  Image,
+  TextStyle,
+  ImageStyle,
+  TouchableOpacity
+} from 'react-native'
+export const init = (filter: FilterModel | undefined = undefined, state: State = 'filter-selected'): Model => { return { filter, state } }
+export default init

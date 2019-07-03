@@ -1,0 +1,6 @@
+{
+  "rulesDirectory": "../../dist",
+  "rules": {
+    "max-import-line-length": [true, 100]
+  }
+}

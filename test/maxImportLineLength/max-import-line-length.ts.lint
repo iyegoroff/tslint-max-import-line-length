@@ -1,0 +1,8 @@
+import * as React from 'react'
+import { Model, Msg } from 'state'
+import Model from 'state-state-state-state-state-state-state-state-state-state-state-state-state-state'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [Exceeds maximum import line length of 100]
+import { View, Text, StyleSheet, ViewStyle, Image, TextStyle, ImageStyle, TouchableOpacity } from 'react-native'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [Exceeds maximum import line length of 100]
+export const init = (filter: FilterModel | undefined = undefined, state: State = 'filter-selected'): Model => { return { filter, state } }
+export default init
