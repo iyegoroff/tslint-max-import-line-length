@@ -1,6 +1,6 @@
 {
   "name": "tslint-max-import-line-length",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TSLint rule that requires import lines to be under a certain max length and provides a fix for long lines",
   "main": "index.json",
   "scripts": {
